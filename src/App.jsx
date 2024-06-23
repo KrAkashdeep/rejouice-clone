@@ -1,21 +1,12 @@
 import "./App.css";
+import MainPage from "./components/MainPage/MainPage";
+import Service from "./components/Service/Service";
 
 function App() {
   return (
     <>
-      <div className="main">
-        <video autoPlay loop muted src="src\assets\video.mp4" />
-        <div className="content">
-          <span>R</span>
-          <span>E</span>
-          <span>J</span>
-          <span>O</span>
-          <span>U</span>
-          <span>I</span>
-          <span>C</span>
-          <span>E</span>
-        </div>
-      </div>
+      <MainPage />
+      <Service />
     </>
   );
 }

@@ -1,0 +1,21 @@
+@font-face {
+  font-family: "myfont";
+  src: url("src/fonts/NBInternationalProBoo.woff2") format("opentype");
+  font-weight: normal;
+}
+.box {
+  font-family: "myfont";
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  position: relative;
+  z-index: 10;
+}
+.box .title,
+.name {
+  font-family: "myfont";
+  color: white;
+  font-weight: 100;
+  font-size: 1.4vw;
+  margin: 46px 42px;
+}
