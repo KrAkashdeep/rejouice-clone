@@ -30,6 +30,6 @@
   font-weight: 100;
   margin: 0;
   font-family: "myfont";
-  text-decoration-line: underline;
+  text-decoration: underline 2px;
   font-size: 62px;
 }

@@ -1,0 +1,35 @@
+@font-face {
+  font-family: "myfont";
+  src: url("src/fonts/NBInternationalProBoo.woff2") format("opentype");
+  font-weight: normal;
+}
+.box {
+  margin-top: 150px;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.top {
+  font-family: "myfont";
+  margin: 0;
+  width: 95%;
+  display: flex;
+  align-items: last baseline;
+  justify-content: space-between;
+}
+.top .text {
+  letter-spacing: -1px;
+  margin: 0;
+  margin-bottom: 20px;
+  font-weight: 100;
+  font-size: 132px;
+}
+.contact {
+  font-size: 24px;
+}
+.line {
+  margin: 0;
+  width: 95%;
+}
