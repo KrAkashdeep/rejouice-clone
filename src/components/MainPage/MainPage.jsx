@@ -8,7 +8,13 @@ function MainPage() {
         <div className={style.cursor}>
           <h4>play reel</h4>
         </div>
-        <video autoPlay loop muted src="src\assets\video.mp4" />
+        <video
+          className={style.vid}
+          autoPlay
+          loop
+          muted
+          src="src\assets\video.mp4"
+        />
         <Navbar />
         <div className={style.content}>
           <span>r</span>

@@ -1,7 +1,6 @@
 @font-face {
   font-family: "myfont";
-  src: url("src/fonts/Rejouice-Headline.woff2") format("opentype");
-  font-weight: normal;
+  src: url("src/fonts/Rejouice-Headline.woff2");
 }
 .main {
   width: 100%;
@@ -10,7 +9,7 @@
   position: relative;
   z-index: 1;
 }
-.main video {
+.vid {
   height: 100%;
   width: 100%;
   object-fit: cover;

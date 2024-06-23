@@ -21,11 +21,6 @@ function Service() {
             Model —  your vision, your decision.`}
           </p>
         </div>
-        <div className={style.bottom}>
-          <h4 className={style.nameAgency}>
-            Agency & Venture <button className={style.but}>Models</button>
-          </h4>
-        </div>
       </div>
     </>
   );
