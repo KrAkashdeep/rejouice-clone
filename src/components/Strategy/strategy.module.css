@@ -1,14 +1,11 @@
 @font-face {
   font-family: "myfont";
-  src: url("src/fonts/NBInternationalProBoo.woff2") format("opentype");
-  font-weight: normal;
+  src: url("src/fonts/NBInternationalProBoo.woff2");
 }
 .box {
   margin-top: 190px;
   padding: 0 30px;
   font-family: "myfont";
-  /* width: ; */
-  /* height: fit-content; */
   display: flex;
   flex-direction: column;
 }

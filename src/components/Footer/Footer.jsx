@@ -1,4 +1,5 @@
 // import React from 'react'
+import Name from "../name/Name";
 import style from "./footer.module.css";
 function Footer() {
   return (
@@ -36,7 +37,7 @@ function Footer() {
             </div>
           </div>
           <div className={style.bottom}>
-            <p>rejouice</p>
+            <Name />
           </div>
         </div>
       </div>

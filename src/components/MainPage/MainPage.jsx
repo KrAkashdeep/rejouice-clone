@@ -5,9 +5,9 @@ function MainPage() {
   return (
     <>
       <div className={style.main}>
-        <div className={style.cursor}>
+        {/* <div className={style.cursor}>
           <h4>play reel</h4>
-        </div>
+        </div> */}
         <video
           className={style.vid}
           autoPlay

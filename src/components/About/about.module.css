@@ -6,7 +6,7 @@
 .box {
   font-family: "myfont";
   width: 100%;
-  height: 50vh;
+  height: 500px;
   display: flex;
   flex-direction: column;
   justify-content: center;
