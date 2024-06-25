@@ -6,21 +6,26 @@
 .box {
   height: 520px;
   width: 100%;
+  /* position: relative; */
   /* margin-bottom: 50px; */
-  /* background-color: rgb(197, 219, 219); */
 }
 .top {
+  /* background-color: rgb(197, 219, 219); */
   font-family: "myfont";
-  box-sizing: border-box;
+  /* box-sizing: border-box; */
   margin: 70px 40px;
   margin-bottom: 0;
   display: flex;
   justify-content: space-between;
+  position: relative;
+  z-index: 999;
 }
 .box hr {
+  position: relative;
   margin: 0 40px;
 }
 .name {
+  /* position: absolute; */
   font-size: 25px;
   font-weight: 100;
 }

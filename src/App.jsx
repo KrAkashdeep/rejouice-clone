@@ -1,3 +1,4 @@
+import { useRef } from "react";
 import "./App.css";
 import About from "./components/About/About";
 import Explore from "./components/Explore/Explore";
@@ -9,20 +10,29 @@ import Strategy from "./components/Strategy/Strategy";
 import Work from "./components/Work/Work";
 import WorkText from "./components/WorkText/WorkText";
 import Contacts from "./components/contacts/Contacts";
-
+import { LocomotiveScrollProvider } from "react-locomotive-scroll";
 function App() {
+  const containerRef = useRef(null);
   return (
     <>
-      <MainPage />
-      <Service />
-      <Explore />
-      <Work />
-      <WorkText />
-      <Seats />
-      <Strategy />
-      <Contacts />
-      <About />
-      <Footer />
+      <LocomotiveScrollProvider
+        options={{
+          smooth: true,
+        }}
+      >
+        <main data-scroll-container ref={containerRef}>
+          <MainPage />
+          <Service />
+          <Explore />
+          <Work />
+          <WorkText />
+          <Seats />
+          <Strategy />
+          <Contacts />
+          <About />
+          <Footer />
+        </main>
+      </LocomotiveScrollProvider>
     </>
   );
 }

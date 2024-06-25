@@ -24,9 +24,10 @@
   justify-content: center;
 }
 .content span {
+  font-family: "myfont";
   align-items: baseline;
-  color: antiquewhite;
-  /* margin-top: 20vw; */
+  color: rgb(255, 254, 252);
+  margin-top: 19vw;
   font-size: 42vh;
 }
 .cursor {
